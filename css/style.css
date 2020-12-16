@@ -1,0 +1,24 @@
+.row-60 {
+    height: 60%;
+}
+.row-50 {
+    height: 50%;
+}
+.row-40 {
+    height: 40%;
+}
+.row-10 {
+    height: 10%;
+}
+#main-container {
+    height: 90vh;
+}
+#main-carousel {
+    height: 100%;
+}
+.center-text {
+    text-align: center;
+}
+.project-card {
+    width: 80%;
+}

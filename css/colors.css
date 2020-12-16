@@ -1,0 +1,84 @@
+.primary-bg {
+    background-color: #212121;
+}
+.primary-color {
+    color: #212121;
+}
+
+.secondary-bg {
+    background-color: #323232;
+}
+.secondary-color {
+    color: #323232;
+}
+
+.highlight-bg {
+    background-color: #14ffec;
+}
+.highlight-color {
+    color: #14ffec;
+}
+
+.faded-highlight-bg {
+    background-color: #0d7377;
+}
+.faded-highlight-color {
+    color: #0d7377;
+}
+
+.text-color {
+    color: #dcdee0;
+}
+
+.bright-text-color {
+    color: #ffffff;
+}
+
+/* Link colors */
+
+a {
+
+    /* text-color */
+    color:#dcdee0;
+}
+  
+a:hover {
+
+    /* bright-text-color */
+    color: #ffffff;
+}
+
+
+/* Navbar current page */
+.current-page {
+    /* highlight */
+    color: #14ffec;
+}
+.current-page:hover {
+
+    /* highlight */
+    color: #14ffec;
+}
+
+
+/* Navbar hamburger menu */
+.custom-toggler .navbar-toggler-icon {
+                                                                                                                                              /* text color in RGB */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(197,198,199, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    color: #14ffec;
+}
+
+/*Button colors*/
+.btn-color{
+    border: none;
+    background-color: #14ffec;
+    /* text-color */
+    color: #212121;
+}
+
+.btn-color:hover {
+    background-color: #0d7377;
+}
