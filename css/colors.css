@@ -18,6 +18,9 @@
 .highlight-color {
     color: #14ffec;
 }
+.highlight-border {
+    border-color: #14ffec;
+}
 
 .faded-highlight-bg {
     background-color: #0d7377;

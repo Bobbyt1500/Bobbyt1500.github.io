@@ -1,8 +1,14 @@
 .row-60 {
     height: 60%;
 }
+.row-60vh {
+    height: 60vh;
+}
 .row-50 {
     height: 50%;
+}
+.row-50vh {
+    height: 50vh;
 }
 .row-40 {
     height: 40%;
@@ -10,14 +16,36 @@
 .row-10 {
     height: 10%;
 }
+.row-10vh {
+    height: 10vh;
+}
+.grid-display {
+    display: grid;
+}
+.margin-auto {
+    margin: auto;
+}
+.center-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 #main-container {
     height: 90vh;
+}
+#page-container {
+}
+#spacing-container {
+    height: 10vh;
 }
 #main-carousel {
     height: 100%;
 }
 .center-text {
     text-align: center;
+}
+.bold {
+    font-weight: bold;
 }
 .project-card {
     width: 80%;
