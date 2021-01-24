@@ -35,11 +35,11 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Engineering</a>
+                <a class="nav-link" href="engineering.html">Engineering</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Experience/Certifications</a>
+                <a class="nav-link" href="experience.html">Experience/Certifications</a>
               </li>
             </ul>
           </div>
@@ -55,11 +55,15 @@
       <row class="row row-40">
         <div class="col col-12">
           <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!--Indicators-->
             <ol class="carousel-indicators">
               <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
               <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
               <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
             </ol>
+
+            <!--Content-->
             <div class="carousel-inner">
               <div class="carousel-item active">
 
@@ -77,13 +81,21 @@
                 <p class="center-text text-color">I have experience using Arduino, Raspberry Pi, and 3d printing to make projects. The CAD software I am most familiar with is Fusion 360.</p>
 
                 <div class="center-text">
-                  <button type="button" class="btn-lg btn-color" href="#">View Projects</button>
+                  <button type="button" class="btn-lg btn-color" onclick="location.href='engineering.html'">View Projects</button>
                 </div>
 
               </div>
               <div class="carousel-item">
+                <h1 class="center-text text-color">Experience/Certifications</h1>
+                <p class="center-text text-color"></p>
+
+                <div class="center-text">
+                  <button type="button" class="btn-lg btn-color" onclick="location.href='experience.html'">View</button>
+                </div>
               </div>
             </div>
+            
+            <!--Arrow Buttons-->
             <a class="carousel-control-prev" href="#main-carousel" role="button" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -92,6 +104,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </a>
+
           </div>
         </div>
       </row>

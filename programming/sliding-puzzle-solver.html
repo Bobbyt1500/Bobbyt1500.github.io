@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Colors CSS-->
+    <link href="../css/colors.css" rel="stylesheet">
+
+    <!-- Custom Styles-->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <title>Robert Thierry Portfolio</title>
+  </head>
+  <body class="secondary-bg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg primary-bg">
+        <div class="container">
+
+          <a class="navbar-brand" href="../index.html">Robert Thierry</a>
+
+          <button class="navbar-toggler custom-toggler highlight-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link current-page" href="../programming.html">Programming</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../engineering.html">Engineering</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../experience.html">Experience/Certifications</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+    </nav>
+    
+    <container class="container" id="spacing-container">
+        <row class="row"></row>
+    </container>
+
+    <main class="container" id="page-container">
+        <row class="row row-80vh">
+            <div class="col col-12 grid-display">
+              
+              <!--Indicators-->
+              <div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="3"></li>
+                </ol>
+                
+                <!--Content-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="center-text">
+                      <img class="img-fluid" src="https://drive.google.com/uc?id=1yKQ1q9RzIJJEenQEUFbkjBhntizIknZ4"></img>  
+                    </div>
+                    <div class="row-10vh"></div>        
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="img-fluid" src="https://drive.google.com/uc?id=1fCt3mKbVkrQ251vJdWowzCDs6XibWizK"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="img-fluid" src="https://drive.google.com/uc?id=1FaZv8VcdZQ6Oz7M-cQbrtMAEkHZUfV_I"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="img-fluid" src="https://drive.google.com/uc?id=1MdwevdwMbRaFXiM8DtEgHMvqjUMqzzQ-"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                </div>
+
+                
+                <!--Arrow Buttons-->
+                <a class="carousel-control-prev" href="#main-carousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#main-carousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+
+
+              </div>
+
+            </div>
+        </row>
+        <row class="row row-10vh"></row>
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">What is it?</h1>
+            <p class="lead text-color">This is a 3x3 sliding number puzzle solver. If you have never seen one of these puzzles, look at the second picture. There are 8 numbers and your goal is to put them in order by sliding them. If you would like to try one, go <a href="http://www.artbylogic.com/puzzles/numSlider/numberShuffle.htm?rows=3&cols=3&sqr=1">here</a>.It is made to be easy to use and return the best possible solution to the puzzle. Simply insert the numbers from your puzzle (as shown in picture 2 and 3), then click "Find Solution" to get a solution (picture 4).</p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">How does it work?</h1>
+          <p class="lead text-color">The search algorithm I chose to use was A*. At first, I tried BFS, but in some situations, it was too slow. I used a very simple heuristic function that was based on the number of tiles (numbers) in the correct spot. For the UI, I am using  <a href="https://docs.python.org/3/library/tkinter.html">tkinter</a>.</p>
+          <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">Want to try it for yourself?</h1>
+          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/3x3Number_Puzzle_Solver">here</a>. Feel free to try it out!</p>
+        </div>
+        
+        <row class="row row-10vh"></row>
+    </main>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </body>
+</html>

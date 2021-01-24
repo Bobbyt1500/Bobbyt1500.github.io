@@ -1,3 +1,6 @@
+.row-100 {
+    height: 100%;
+}
 .row-60 {
     height: 60%;
 }
@@ -12,6 +15,12 @@
 }
 .row-40 {
     height: 40%;
+}
+.row-20 {
+    height: 20;
+}
+.row-20vh {
+    height: 20vh;
 }
 .row-10 {
     height: 10%;
@@ -33,8 +42,6 @@
 #main-container {
     height: 90vh;
 }
-#page-container {
-}
 #spacing-container {
     height: 10vh;
 }
@@ -49,4 +56,9 @@
 }
 .project-card {
     width: 80%;
+}
+.card-img-contain {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
 }
