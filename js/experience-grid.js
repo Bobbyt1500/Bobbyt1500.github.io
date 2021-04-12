@@ -38,7 +38,8 @@ class RTExperienceGrid extends React.Component {
                         e("h5", {className: "card-title text-color"}, experience[i]["title"]),
                         e("p", {className: "card-text text-color"}, experience[i]["desc"]),
                         e("a", {href: experience[i]["url"], class: "btn btn-md btn-color"}, "View")
-                    )
+                    ),
+                    e("row", {className: "row row-10vh"})
                 )
             )
             
@@ -54,7 +55,8 @@ class RTExperienceGrid extends React.Component {
                             e("p", {className: "card-text text-color"}, experience[i+1]["desc"]),
                             e("a", {href: experience[i+1]["url"], class: "btn btn-md btn-color"}, "View")
                         )
-                    )
+                    ),
+                    e("row", {className: "row row-10vh"})
                 )
 
             } else {
@@ -64,8 +66,7 @@ class RTExperienceGrid extends React.Component {
             // Add row to list of return elements
             return_list.push(
                 e("row", {className: "row"},
-                    element1, element2, 
-                    e("row", {className: "row row-10vh"})
+                    element1, element2
                 )
             )
 

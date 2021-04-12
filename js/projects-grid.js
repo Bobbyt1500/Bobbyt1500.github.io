@@ -58,7 +58,8 @@ class RTProjectsGrid extends React.Component {
                         e("p", {className: "card-text text-color"}, projects[i]["desc"]),
                         e("a", {href: "projects/" + projects[i]["url"], class: "btn btn-md btn-color"}, "View")
                     )
-                )
+                ),
+                e("row", {className: "row row-10vh"})
             )
             
             // Build right column element
@@ -73,7 +74,8 @@ class RTProjectsGrid extends React.Component {
                             e("p", {className: "card-text text-color"}, projects[i+1]["desc"]),
                             e("a", {href: "projects/" + projects[i+1]["url"], class: "btn btn-md btn-color"}, "View")
                         )
-                    )
+                    ),
+                    e("row", {className: "row row-10vh"})
                 )
 
             } else {
@@ -83,8 +85,7 @@ class RTProjectsGrid extends React.Component {
             // Add row to list of return elements
             return_list.push(
                 e("row", {className: "row"},
-                    element1, element2, 
-                    e("row", {className: "row row-10vh"})
+                    element1, element2
                 )
             )
 
