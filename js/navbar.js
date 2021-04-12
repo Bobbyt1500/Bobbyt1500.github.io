@@ -1,13 +1,16 @@
-'use strict';
-
-const e = React.createElement;
-
 class RTNavBar extends React.Component {
+  
 
   render() {
+    const e = React.createElement;
     const linkprefix = this.props.linkprefix
+    var bg = " primary-bg"
 
-    return e("nav", {className: "navbar navbar-expand-lg primary-bg"}, 
+    if (this.props.nobg == "1") {
+      bg = ""
+    }
+
+    return e("nav", {className: "navbar navbar-expand-lg" + bg}, 
       e("div", {className: "container"},
 
         // Name / Home link
@@ -23,11 +26,7 @@ class RTNavBar extends React.Component {
             
             // Nav links
             e("li", {className: "nav-item"},
-              e("a", {className: "nav-link", href: linkprefix + "programming.html"}, "Programming"),
-            ),
-
-            e("li", {className: "nav-item"},
-              e("a", {className: "nav-link", href: linkprefix + "engineering.html"}, "Engineering"),
+              e("a", {className: "nav-link", href: linkprefix + "projects.html"}, "Projects"),
             ),
 
             e("li", {className: "nav-item"},
@@ -42,8 +41,10 @@ class RTNavBar extends React.Component {
   }
 }
 
-if (document.getElementById("rtnavbar").getAttribute("linkprefix") != null) {
-  ReactDOM.render(e(RTNavBar, {linkprefix: document.getElementById("rtnavbar").getAttribute("linkprefix")}), document.getElementById("rtnavbar"));
-} else {
-  ReactDOM.render(e(RTNavBar, {linkprefix: ""}), document.getElementById("rtnavbar"));
+var provided_link_prefix = "", no_bg = "0";
+
+if (document.getElementById("rtnavbar") != null) {
+  if (document.getElementById("rtnavbar").getAttribute("linkprefix") != null) provided_link_prefix = document.getElementById("rtnavbar").getAttribute("linkprefix");
+  if (document.getElementById("rtnavbar").getAttribute("no-bg") != null) no_bg = document.getElementById("rtnavbar").getAttribute("no-bg");
+  ReactDOM.render(React.createElement(RTNavBar, {linkprefix: provided_link_prefix, nobg: no_bg}), document.getElementById("rtnavbar"));
 }

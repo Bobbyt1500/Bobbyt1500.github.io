@@ -33,19 +33,33 @@
                 <ol class="carousel-indicators">
                   <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
                   <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="3"></li>
                 </ol>
                 
                 <!--Content-->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1RBLhtbfivSItt145Z9VNTbav2oeejJVL"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1Pq__1SW38OBO7ZSxJL90TpazIQ_wukHu"></img>  
                     </div>
                     <div class="row-10vh"></div>        
                   </div>
                   <div class="carousel-item">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1SHURsBNkDR8Q6SOO4Hu9uIxxIisHq0is"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1P_TSJliKy_T_dKJvQq0UXjo-M-0-CEsU"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1IqpYkzujVro91EEgtM0gzhjJH3bxo_f5"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1dvccHmV-0XrUMu7gssDK91Dc9c5jEyc2"></img>  
                     </div>
                     <div class="row-10vh"></div>   
                   </div>
@@ -71,8 +85,22 @@
 
         <div class="jumbotron">
             <h1 class="display-4 text-color bold">What is it?</h1>
-            <p class="lead text-color">The Mamod TE1A is a model steam traction engine. It works similarly to a steam train as the water in the boiler gets heated up to produce steam. The steam is then used to power the oscillating steam piston. I designed it in Fusion 360 mostly for practice, but also so that I could animate and move different parts.</p>
+            <p class="lead text-color">This a 2 speed 3D printed transmission I designed in Fusion 360. It has a high, low, and neutral gear. It was designed to work with a small electric motor and servo. The motor would connect to the input shaft, and the servo would connect to the shift rod.</p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">Versions</h1>
+          <p class="lead text-color">This is actually the second version I made, the first version is shown in picture 3. The main problem with the first version was its shift fork was too narrow and flimsy which caused it to break. It may have worked if made out of a stronger material, but since it is made out of PLA, it did not. The other major change I made in version two is the positioning of the input shaft. It is next to the output axle instead of in line with the output shaft.</p>
+          <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">How does it work?</h1>
+          <p class="lead text-color">As the input shaft turns, it turns the gears connected to it. The gears on the output axle are not connected to it, they turn freely. When the shift fork is moved, it slides a disc that connects the output axle to the freely spinning gears. Now, the output axle turns is connect to the input shaft via the selected gear ratio. This process works best when the system is moving so the shift fork and disc doesn't get stuck.</p>
+          <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
         
         <row class="row row-10vh"></row>
     </main>
@@ -84,13 +112,6 @@
     
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- React -->
-    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-
-    <!-- React components -->
-    <script src="../js/navbar.js"></script>
 
   </body>
 </html>

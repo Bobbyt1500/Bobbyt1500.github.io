@@ -39,6 +39,9 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+html {
+    height: 100%;
+}
 #main-container {
     height: 90vh;
 }
@@ -48,6 +51,12 @@
 #main-carousel {
     height: 100%;
 }
+.page-bg {
+    height: 100%;
+    width: 100%;
+    background: url("../page-background.png") no-repeat center center fixed; 
+    background-size: cover;
+}
 .center-text {
     text-align: center;
 }
@@ -56,6 +65,12 @@
 }
 .project-card {
     width: 80%;
+}
+.cta-card {
+    width: 80%;
+}
+.cta-icon-size {
+    font-size: xx-large;
 }
 .card-img-contain {
     width: 100%;
