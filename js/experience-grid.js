@@ -5,6 +5,12 @@ let experience = [{
     url: "experience/atljdm.html"
 },
 {
+    img_id: "1q0_X2nsR6JXypOSLH8fRteNvOyKcAqNa",
+    title: "Achievement House Cyber Charter School Internship",
+    desc: "From 2020 - 2021 I did 3D printing and software development at AHCCS",
+    url: "experience/ahccs.html"
+},
+{
     img_id: "1e3iXZPM2H8GBlOrChgFQof7WCRa_7ccc",
     title: "Harvard CS50AI 2020",
     desc: 'This certification is from a free online course by Harvard called "Introduction to Artificial Intelligence with Python".',

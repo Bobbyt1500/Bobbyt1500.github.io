@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Colors CSS-->
+    <link href="../css/colors.css" rel="stylesheet">
+
+    <!-- Custom Styles-->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <title>Robert Thierry Portfolio</title>
+  </head>
+  <body class="secondary-bg">
+    <!-- Navbar -->
+    <div id="rtnavbar" linkprefix="../"></div>
+    
+    <container class="container" id="spacing-container">
+        <row class="row"></row>
+    </container>
+
+    <main class="container" id="page-container">
+        <row class="row row-80vh">
+            <div class="col col-12 grid-display">
+              
+              <!--Indicators-->
+              <div id="main-carousel" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <!--Content-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=11DS-6dHVX0WghwEk-vXbLToVBO1wyaZa"></img>  
+                    </div>
+                    <div class="row-10vh"></div>        
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                        <iframe src="https://drive.google.com/file/d/1YiQGTZAd2x4SPPaZsGuAkm-McsjG0WMl/preview" width="640" height="480"></iframe> 
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1NUtwwbG3OXGRm9WV678WYNHzEdi_rFXP"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                </div>
+
+                
+                <!--Arrow Buttons-->
+                <a class="carousel-control-prev" href="#main-carousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#main-carousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+
+
+              </div>
+
+            </div>
+        </row>
+        <row class="row row-10vh"></row>
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">What is it?</h1>
+            <p class="lead text-color">This is a desktop application designed for Achievement House Cyber Charter School. It is able to take a large amount of live-class reports, then calculate attendance scores for the students. These scores can be calculated per quarter, and are adjusted based on excused absences. The calculator also shows a graph of how many students are attending the class at different parts of the year (see slide 3).</p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">How would it be used?</h1>
+            <p class="lead text-color">First, a teacher would import their <a href="https://www.blackboard.com/teaching-learning/collaboration-web-conferencing/blackboard-collaborate">Blackboard Collaborate</a> class reports. These are just CSV files. The calculator then iterates through the files and calculates the attendance grades. If the teacher has excused days for a student, they can add those to the students total.</p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+        
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">How does it work?</h1>
+          <p class="lead text-color">The most notable of the libraries used are <a href="https://github.com/raysan5/raylib">raylib</a> and <a href="https://github.com/raysan5/raygui">raygui</a>. These libaries handle the OpenGL graphics and many of the UI elements in the application.</p>
+          <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">What did I learn?</h1>
+            <p class="lead text-color">I wanted to make this application as easy for other developers to build and use as possible. Because, of this, I choose to use CMake. This was my first time using CMake on a large project, so I had to learn things such as, how to include/build other libraries and generate a release. Visit the project on github below to see how there are only a few steps to get it built. In addition to this, I worked with teachers, faculty, and administrators, to make sure that the calculator had the features they needed. I also learned concepts of intuitive design and color choice, to make sure it was both easy to use, and aesthetically pleasing.</p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">Source Code</h1>
+          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/AHCCS-Attendance-Calculator">here</a></p>
+        </div>
+        
+        <row class="row row-10vh"></row>
+    </main>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- React -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- React components -->
+    <script src="../js/navbar.js"></script>
+
+  </body>
+</html>

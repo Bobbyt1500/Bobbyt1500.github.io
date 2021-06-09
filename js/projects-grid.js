@@ -1,14 +1,32 @@
 let projects = [{
+    img_id: "14JqFlPBUUX9tLKSO2BrlxNrdSltGYZNg",
+    title: "Arduino EFIS",
+    desc: "An electronic instrument display for my X-Plane 11 sim.",
+    url: "efis.html"
+},
+{
+    img_id: "11DS-6dHVX0WghwEk-vXbLToVBO1wyaZa",
+    title: "AHCCS Attendance Calculator",
+    desc: "A desktop application designed to help teachers calculate class attendance.",
+    url: "attendance-calculator.html"
+},
+{
+    img_id: "1uUX0Ljr9QG_bRsRMJqqHyHEOwpRSM8o_",
+    title: "Puzzle Cutter F360 Add-in",
+    desc: "A Fusion 360 add-in that creates a profile to cut a face into puzzle pieces.",
+    url: "puzzle-cutter.html"
+},
+{
+    img_id: "1s7RdOHm9P75R5PUl1LShl_0jbs2WtVuh",
+    title: "Custom IR Remote",
+    desc: "One remote that replaces all of my other IR remotes.",
+    url: "custom-ir-remote.html"
+},
+{
     img_id: "109dMHkOMzf1n8Wwyz7VT4S8WZn0aBX5g",
     title: "Weather Display",
     desc: "An always-on display that provides weather data for a selected area.",
     url: "weather-display.html"
-},
-{
-    img_id: "1yKQ1q9RzIJJEenQEUFbkjBhntizIknZ4",
-    title: "3x3 Sliding Number Puzzle Solver",
-    desc: "This is a simple to use program that returns the best possible solution to a 3x3 sliding number puzzle.",
-    url: "sliding-puzzle-solver.html"
 },
 {
     img_id: "1q8xRMGo-7swaDVnez_ZdjYCNlAohnmB7",
@@ -17,16 +35,22 @@ let projects = [{
     url: "al-map-tach.html"
 },
 {
+    img_id: "1yKQ1q9RzIJJEenQEUFbkjBhntizIknZ4",
+    title: "3x3 Sliding Number Puzzle Solver",
+    desc: "This is a simple to use program that returns the best possible solution to a 3x3 sliding number puzzle.",
+    url: "sliding-puzzle-solver.html"
+},
+{
     img_id: "1CWyxFOkUePghLwI3v1T3fvOOhvJ7I2gB",
     title: "LOLStats",
     desc: "A League of Legends chat bot that allows coaches to easily get statistics on a player.",
     url: "lolstats.html"
 },
 {
-    img_id: "1s7RdOHm9P75R5PUl1LShl_0jbs2WtVuh",
-    title: "Custom IR Remote",
-    desc: "One remote that replaces all of my other IR remotes.",
-    url: "custom-ir-remote.html"
+    img_id: "1ho36l8ZOPDfDzBuNIqXHBI8a-Gr9h5rG",
+    title: "Covid-19: Effect on American Culture Website",
+    desc: "A website I created to show how the Covid-19 pandemic has affected our American Culture.",
+    url: "culture-website.html"
 },
 {
     img_id: "1RBLhtbfivSItt145Z9VNTbav2oeejJVL",
