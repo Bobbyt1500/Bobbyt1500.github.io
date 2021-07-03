@@ -40,19 +40,19 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=11DS-6dHVX0WghwEk-vXbLToVBO1wyaZa"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1Ik7_SjgArSR5Gk8NTIO5FEkDcJzvq4u1"></img>  
                     </div>
                     <div class="row-10vh"></div>        
                   </div>
                   <div class="carousel-item">
                     <div class="center-text">
-                        <iframe src="https://drive.google.com/file/d/1YiQGTZAd2x4SPPaZsGuAkm-McsjG0WMl/preview" width="640" height="480"></iframe> 
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1QVOF-JmiPpxJ6v2ZOnZGPCQWZ3zU6uiu"></img>  
                     </div>
                     <div class="row-10vh"></div>   
                   </div>
                   <div class="carousel-item">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1NUtwwbG3OXGRm9WV678WYNHzEdi_rFXP"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1thFVC-Efhd8DI5iTzwgBmIkdZQCC0B6_"></img>  
                     </div>
                     <div class="row-10vh"></div>   
                   </div>
@@ -78,31 +78,25 @@
 
         <div class="jumbotron">
             <h1 class="display-4 text-color bold">What is it?</h1>
-            <p class="lead text-color">This is a desktop application designed for Achievement House Cyber Charter School. It is able to take a large amount of live-class reports, then calculate attendance scores for the students. These scores can be calculated per quarter, and are adjusted based on excused absences. The calculator also shows a graph of how many students are attending the class at different parts of the year (see slide 3).</p>
+            <p class="lead text-color">This is a discord bot that was designed to help the Anarachy (Now Elventus) Esports Team Development Organization with server automation. The scrim-scheduler part of the bot allows teams to easily find other teams and schedule a scrimmage match. Picture 1 is the available scrims menu. This is where team captains can send invites to other team captains. Each team then receives the invite in their matches menu (picture 2). The bot also automates role assign (picture 3) and helps with repetitve tasks such as adding teams or players. As of now (June 2021) this bot is currently still actively working on their server!</p>
             <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
 
         <div class="jumbotron">
-            <h1 class="display-4 text-color bold">How would it be used?</h1>
-            <p class="lead text-color">First, a teacher would import their <a href="https://www.blackboard.com/teaching-learning/collaboration-web-conferencing/blackboard-collaborate">Blackboard Collaborate</a> class reports. These are just CSV files. The calculator then iterates through the files and calculates the attendance grades. If the teacher has excused days for a student, they can add those to the students total.</p>
-            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
-        </div>
-        
-        <div class="jumbotron">
           <h1 class="display-4 text-color bold">How does it work?</h1>
-          <p class="lead text-color">This application is written in C++. It uses the library <a href="https://github.com/raysan5/raylib">raylib</a> handle the OpenGL graphics. I also used <a href="https://github.com/raysan5/raygui">raygui</a> (an external raylib module) to create many of the UI elements in the application.</p>
+          <p class="lead text-color">This bot is written in Python. It uses the <a href="https://discordpy.readthedocs.io/en/stable/">discord.py</a> API wrapper to interface with the discord API. To store data such as scrim-invites and scheduled-matches, it uses an <a href="https://www.sqlite.org/index.html">SQLite</a> database.</p>
           <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
 
         <div class="jumbotron">
             <h1 class="display-4 text-color bold">What did I learn?</h1>
-            <p class="lead text-color">I wanted to make this application as easy for other developers to build and use as possible. Because, of this, I choose to use CMake. This was my first time using CMake on a large project, so I had to learn things such as, how to include/build other libraries and generate a release. Visit the project on github below to see how there are only a few steps to get it built. In addition to this, I worked with teachers, faculty, and administrators, to make sure that the calculator had the features they needed. I also learned concepts of intuitive design and color choice, to make sure it was both easy to use, and aesthetically pleasing.</p>
+            <p class="lead text-color">I worked with another developer on this project. It was great to have someone to discuss ideas and solutions. We used Git to keep everything organized, and it helped both of us work on the project. During this time, I learned common practices regarding branching and naming schemes. I also started focusing on how to write code that could be easily understood and worked on by another developer.</p>
             <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
 
         <div class="jumbotron">
           <h1 class="display-4 text-color bold">Source Code</h1>
-          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/AHCCS-Attendance-Calculator">here</a></p>
+          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/Elventus-Esports-Bot">here</a>.</p>
         </div>
         
         <row class="row row-10vh"></row>

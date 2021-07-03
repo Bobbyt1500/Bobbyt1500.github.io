@@ -23,10 +23,22 @@ let projects = [{
     url: "custom-ir-remote.html"
 },
 {
+    img_id: "1Ik7_SjgArSR5Gk8NTIO5FEkDcJzvq4u1",
+    title: "Esports Discord Bot",
+    desc: "A discord bot design to automate an Esports Team Development server.",
+    url: "esports-discord-bot.html"
+},
+{
     img_id: "109dMHkOMzf1n8Wwyz7VT4S8WZn0aBX5g",
     title: "Weather Display",
     desc: "An always-on display that provides weather data for a selected area.",
     url: "weather-display.html"
+},
+{
+    img_id: "1opsBsrHhzKnMq4_rejnEDFMtr6NGMoJn",
+    title: "Kindle Engine Monitor",
+    desc: "",
+    url: "kindle-engine-monitor.html"
 },
 {
     img_id: "1q8xRMGo-7swaDVnez_ZdjYCNlAohnmB7",
