@@ -37,7 +37,7 @@ let projects = [{
 {
     img_id: "1opsBsrHhzKnMq4_rejnEDFMtr6NGMoJn",
     title: "Kindle Engine Monitor",
-    desc: "",
+    desc: "This is an electronic engine monitor for my home flight sim written in C++",
     url: "kindle-engine-monitor.html"
 },
 {
