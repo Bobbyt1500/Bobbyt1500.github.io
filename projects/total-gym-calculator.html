@@ -34,28 +34,35 @@
                   <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
                   <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
                   <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="3"></li>
                 </ol>
                 
                 <!--Content-->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1s7RdOHm9P75R5PUl1LShl_0jbs2WtVuh"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=17-x3AB-eW9dMP-r8PI0QVWzR5K6DSiZZ"></img>  
                     </div>
                     <div class="row-10vh"></div>        
                   </div>
                   <div class="carousel-item">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1ma6OxG1uynfZ-XrpRc7mIjwl9KjZyMp0"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1dREPLGl-EY8eXb3w0LJ7T8wiFVfNhOmw"></img>  
                     </div>
                     <div class="row-10vh"></div>   
                   </div>
                   <div class="carousel-item">
                     <div class="center-text">
-                      <img class="slider-img" src="https://drive.google.com/uc?id=1j-F4ldMkQ_izbJBEWvk-TydiQEYIcsnd"></img>  
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1-P-lSuIrP7vf9WovY04RTYJ6k5Rskanz"></img>  
                     </div>
                     <div class="row-10vh"></div>   
-                </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1dDZlaecUOt1yfm4M561aCmyxY0vaB6mE"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
                 </div>
 
                 
@@ -78,27 +85,31 @@
 
         <div class="jumbotron">
             <h1 class="display-4 text-color bold">What is it?</h1>
-            <p class="lead text-color">After becoming annoyed with the large number of remotes I had, I wanted to make a better solution. I decided to use an Arduino Nano, and an IR emitter to replace the other remotes. To show the different devices and functions available, I use a small OLED display. To interact with the remote, I used a small joystick. Compared to a TV's 4 button system, I found this joystick to be much better at navigating the menus.</p>
+            <p class="lead text-color">
+              When I was using our Total Gym (See picture 4 if you have never seen a Total Gym) I wondered how much weight I was actually lifting. 
+              I decided I would make this calculator so my family and I could find the weight at different levels.
+              To calculate this, it just needs two values.
+              First you input your body weight (Red Light), then input your incline level (Blue Light).
+              It will calculate how much weight you are lifting (neglecting friction), then show it on the display (Green Light).
+            </p>
             <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
         
         <div class="jumbotron">
-            <h1 class="display-4 text-color bold">How was it made?</h1>
-            <p class="lead text-color">I designed the body of this remote in Fusion 360. I wanted to be able to open the remote easily in the future, so I needed a secure and strong way of fastening the two halves. I decided to use tapped holes and M3 screws. These were suprisingly strong and the entire remote feels very sturdy for a 3D printed part.</p>
-            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
-        </div>
-
-        <div class="jumbotron">
-            <h1 class="display-4 text-color bold">How does it work?</h1>
-            <p class="lead text-color">To get the IR hex codes on the existing remotes, I used an IR reciever. Once I had these codes, I could copy them to the Arduino. Because of the low amount of memory on an Arduino Nano, these codes have to be stored in flash storage. Whenever you select a device and option, the Arduino sends that corresponding code with the IR Emitter using the <a href="https://github.com/Arduino-IRremote/Arduino-IRremote">IRremote Library</a></p>
+            <h1 class="display-4 text-color bold">What did I learn?</h1>
+            <p class="lead text-color">
+              This is written in C and only uses the <a href="https://www.nongnu.org/avr-libc/">AVR Libc</a> library. The main reason I choose to make this physical calculator, and not just an app, was because I wanted to try using this library.
+              In order to make this work, I had to interact with the ATmega328p at a low level. This means I learned how to set bits in the registers manually, and worked with devices like the Analog to Digital converter.
+            </p>
             <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
         </div>
 
         <div class="jumbotron">
           <h1 class="display-4 text-color bold">Source Code</h1>
-          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/custom-ir-remote">here</a></p>
-      </div>
+          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/total-gym-calculator">here</a></p>
+        </div>
         
+
         <row class="row row-10vh"></row>
     </main>
 

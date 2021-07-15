@@ -35,6 +35,12 @@ let projects = [{
     url: "weather-display.html"
 },
 {
+    img_id: "17-x3AB-eW9dMP-r8PI0QVWzR5K6DSiZZ",
+    title: "Total Gym Weight Calculator",
+    desc: "This is a device that calculates how much weight you are lifting on a Total Gym.",
+    url: "total-gym-calculator.html"
+},
+{
     img_id: "1opsBsrHhzKnMq4_rejnEDFMtr6NGMoJn",
     title: "Kindle Engine Monitor",
     desc: "This is an electronic engine monitor for my home flight sim written in C++",
