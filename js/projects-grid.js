@@ -11,6 +11,12 @@ let projects = [{
     url: "attendance-calculator.html"
 },
 {
+    img_id: "1B5vFPbRr-W0L2cu5GgS7NhmWQewpaNXI",
+    title: "Project Part Picker",
+    desc: "A web app made with Python and Flask to plan and budget my projects.",
+    url: "project-part-picker.html"
+},
+{
     img_id: "1uUX0Ljr9QG_bRsRMJqqHyHEOwpRSM8o_",
     title: "Puzzle Cutter F360 Add-in",
     desc: "A Fusion 360 add-in that creates a profile to cut a face into puzzle pieces.",

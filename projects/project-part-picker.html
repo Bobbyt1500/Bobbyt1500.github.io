@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Colors CSS-->
+    <link href="../css/colors.css" rel="stylesheet">
+
+    <!-- Custom Styles-->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <title>Robert Thierry Portfolio</title>
+  </head>
+  <body class="secondary-bg">
+    <!-- Navbar -->
+    <div id="rtnavbar" linkprefix="../"></div>
+    
+    <container class="container" id="spacing-container">
+        <row class="row"></row>
+    </container>
+
+    <main class="container" id="page-container">
+        <row class="row row-80vh">
+            <div class="col col-12 grid-display">
+              
+              <!--Indicators-->
+              <div id="main-carousel" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="0" class="active"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#main-carousel" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <!--Content-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1B5vFPbRr-W0L2cu5GgS7NhmWQewpaNXI"></img>  
+                    </div>
+                    <div class="row-10vh"></div>        
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1HaQssM3B1XB9gX7PKxk6TS7EvOWp5QJx"></img>  
+                    </div>
+                    <div class="row-10vh"></div>   
+                  </div>
+                  <div class="carousel-item">
+                    <div class="center-text">
+                      <img class="slider-img" src="https://drive.google.com/uc?id=1PhqN1H1CqXtdgQxWbz4__hLCNCllOupg"></img>  
+                    </div>  
+                  </div>
+                </div>
+
+                
+                <!--Arrow Buttons-->
+                <a class="carousel-control-prev" href="#main-carousel" role="button" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#main-carousel" role="button" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </a>
+
+
+              </div>
+
+            </div>
+        </row>
+        <row class="row row-10vh"></row>
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">What is it?</h1>
+            <p class="lead text-color">
+              When I plan projects, I usually use a spreadsheet for parts and prices. To share the spreadsheet, I would share the file. This lead to problems as sometimes the people I sent it to didn't have the most up-to-date version.
+              In order to fix this problem, I created a webapp that lists my project ideas, and their parts. It incorporates all of the CRUD operations as you can add, view, update, and remove projects/parts. 
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+        
+        <div class="jumbotron">
+            <h1 class="display-4 text-color bold">What did I learn?</h1>
+            <p class="lead text-color">
+              This is written in Python and uses the <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a> web framework. I had never used Flask before and thought this would be a great project to use it.
+              Flask also uses the <a href="https://jinja.palletsprojects.com/en/3.0.x/">Jinja</a> templating engine. I really liked Jinja as it allowed me to easily create reusable page templates.
+            </p>
+            <hr class="my-4 highlight-color highlight-bg" style="height: 2px;">
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4 text-color bold">Source Code</h1>
+          <p class="lead text-color">It is on GitHub <a href="https://github.com/Bobbyt1500/project-part-picker">here</a></p>
+        </div>
+        
+
+        <row class="row row-10vh"></row>
+    </main>
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- React -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+    <!-- React components -->
+    <script src="../js/navbar.js"></script>
+
+  </body>
+</html>
