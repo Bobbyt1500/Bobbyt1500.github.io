@@ -17,10 +17,10 @@ let projects = [{
     url: "project-part-picker.html"
 },
 {
-    img_id: "1uUX0Ljr9QG_bRsRMJqqHyHEOwpRSM8o_",
-    title: "Puzzle Cutter F360 Add-in",
-    desc: "A Fusion 360 add-in that creates a profile to cut a face into puzzle pieces.",
-    url: "puzzle-cutter.html"
+    img_id: "1opsBsrHhzKnMq4_rejnEDFMtr6NGMoJn",
+    title: "Kindle Engine Monitor",
+    desc: "This is an electronic engine monitor for my home flight sim written in C++.",
+    url: "kindle-engine-monitor.html"
 },
 {
     img_id: "1s7RdOHm9P75R5PUl1LShl_0jbs2WtVuh",
@@ -35,6 +35,12 @@ let projects = [{
     url: "esports-discord-bot.html"
 },
 {
+    img_id: "1uUX0Ljr9QG_bRsRMJqqHyHEOwpRSM8o_",
+    title: "Puzzle Cutter F360 Add-in",
+    desc: "A Fusion 360 add-in that creates a profile to cut a face into puzzle pieces.",
+    url: "puzzle-cutter.html"
+},
+{
     img_id: "109dMHkOMzf1n8Wwyz7VT4S8WZn0aBX5g",
     title: "Weather Display",
     desc: "An always-on display that provides weather data for a selected area.",
@@ -47,12 +53,6 @@ let projects = [{
     url: "total-gym-calculator.html"
 },
 {
-    img_id: "1opsBsrHhzKnMq4_rejnEDFMtr6NGMoJn",
-    title: "Kindle Engine Monitor",
-    desc: "This is an electronic engine monitor for my home flight sim written in C++",
-    url: "kindle-engine-monitor.html"
-},
-{
     img_id: "1q8xRMGo-7swaDVnez_ZdjYCNlAohnmB7",
     title: "X-Plane AL Manifold and Tachometer",
     desc: "An X-Plane 11 plugin that shows manifold pressure and propeller RPMs on a digital display.",
@@ -63,6 +63,12 @@ let projects = [{
     title: "3x3 Sliding Number Puzzle Solver",
     desc: "This is a simple to use program that returns the best possible solution to a 3x3 sliding number puzzle.",
     url: "sliding-puzzle-solver.html"
+},
+{
+    img_id: "1_6sYBOcM_o1VzujjIl2DnaDQA5eritKQ",
+    title: "3D Printed Mechanical Pencil",
+    desc: "A customized fully functional mechanical pencil.",
+    url: "mechanical-pencil.html"
 },
 {
     img_id: "1CWyxFOkUePghLwI3v1T3fvOOhvJ7I2gB",
